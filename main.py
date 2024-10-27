@@ -1,17 +1,15 @@
 from tkinter import *
 
-d=Tk()
-d.geometry("500x450")
-d.iconbitmap("icons/shop.ico")
+win=Tk()
 
 
+def DestroyWindow(e):
 
+    win.destroy()
+closeImage=PhotoImage(file='images/close-window-16.png')
 
-
-
-
-
-s.mainloop()
-
+CloseBtn=Button(win,image=closeImage)
+CloseBtn.bind('<Button-1>',DestroyWindow)
+CloseBtn.place(x=10,y=10)
 
 
