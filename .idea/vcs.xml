@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/crud-insert-cod" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crud-insert-cod/project1_CRUD_mongoDB" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/project1_CRUD_mongoDB" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/project1_CRUD_mongoDB/project1_CRUD_mongoDB" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/project1_CRUD_mongoDB_old" vcs="Git" />
