@@ -20,6 +20,13 @@ def DestroyWindow(e):
 #CloseBtn.bind('<Button-1>',DestroyWindow)
 #CloseBtn.place(x=10,y=10)
 
+#LBL
+lblName=Label(win,text='Name',font=('arial',12,'bold'),bg='#a18282',fg='white')
+
+lblName.place(x=20,y=100)
+
+lblFamily=Label(win,text='Family',font=('arial',12,'bold'),bg='#a18282',fg='white')
+lblFamily.place(x=20,y=160)
 
 
 win.mainloop()
