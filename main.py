@@ -1,6 +1,5 @@
-from tkinter import *
 
-win=Tk()
+
 
 def DestroyWindow(e):
     win.destroy()
